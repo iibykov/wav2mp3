@@ -23,7 +23,7 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
      make
      make install
      ```
-* pthreads ```mingw-get install pthreads```
+* pthreads ```mingw-get install pthreads``` (Mingw supplied with Qt already contains pthreads)
 
 *  Compile using `make` 
 

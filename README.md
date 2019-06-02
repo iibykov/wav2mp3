@@ -14,7 +14,7 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
    ```
 	 mingw-get install gcc
 	 mingw-get install mingw-utils
-	 ```
+   ```
 
 *  LAME encoder source files (https://sourceforge.net/projects/lame/files/lame/).
    Go to extract folder and run the following commands:
@@ -41,3 +41,17 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
 
 ## Notes
 By default (unless additional parameters are specified) application encodes WAV files to mono, 44,100 Hz MP3 files and saves the encoded files into the same user-defined directory.
+
+   ```
+   Usage: wav2mp3.exe [options] wavPath
+   
+   Options:
+     -?, -h, --help       Displays this help.
+     -v, --version        Displays version information.
+     -o, --out <mp3Path>  Path to mp3 collection
+     -s, --sub            Process wav files in subdirectories
+   
+   Arguments:
+     wavPath              Path to wav collection
+   ```
+

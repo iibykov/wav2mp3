@@ -33,3 +33,6 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
    
 ### For Linux
    `wav2mp3 /usr/local/pathtowavfiles`
+
+## Notes
+By default (unless additional parameters are specified) application encodes WAV files to mono, 44,100 Hz MP3 files and saves the encoded files into the same user-defined directory.

@@ -7,7 +7,7 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
    to complete the next step, otherwise skip the next step.
 *  MingGW - https://sourceforge.net/projects/mingw/files/Installer/
    *  GCC C++ compiler
-   *  MSYS Basic System
+   *  MSYS Basic System or MSYS2 (https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2)
    *  MinGW Developer Toolkit
    *  MinGW-get
    Open a MinGW shell and install the following:
@@ -23,6 +23,11 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
      make
      make install
      ```
+     Note: If there is a langinfo.h error, go to http://blog.k-tai-douga.com/article/35965219.html and use lame-3.100-parse_c.diff
+     ```
+     patch -p1 < lame-3.100-parse_c.diff
+     ```
+     
 * pthreads ```mingw-get install pthreads``` (Mingw supplied with Qt already contains pthreads)
 
 *  Compile using `make` 

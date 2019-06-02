@@ -4,7 +4,7 @@ C++ cross-platform wav-mp3 encoder utilising Qt &amp; Lame library &amp; POSIX t
 ## Requirements
 *  Qt - https://www.qt.io/download-qt-installer (choose Mingw version). The Qt installation package includes Mingw.
    It is assumed to use this version of Mingw. If for some reason you cannot use Mingw from this package, you need 
-   you need to complete the next step, otherwise skip the next step.
+   to complete the next step, otherwise skip the next step.
 *  MingGW - https://sourceforge.net/projects/mingw/files/Installer/
    *  GCC C++ compiler
    *  MSYS Basic System
